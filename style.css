@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Android', sans-serif;
+    src: url(fonts/idroid.otf) format('opentype');
+}
+:root {
+    --cor0: #C5EBD6;
+    --cor1: #83E1AD;
+    --cor2: #3DDC84;
+    --cor3: #2FA866;
+    --cor4: #1A5C37;
+    --cor5: #063D1E;
+    /* Fonts */
+    --font-android: 'Android', sans-serif;
+    --font-text: 'Roboto', sans-serif;
+    --font-bebas: 'Bebas Neue', cursive;
+}
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
