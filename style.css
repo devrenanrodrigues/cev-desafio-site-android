@@ -189,3 +189,22 @@ aside .aside-list {
 aside .aside-list-item {
     margin: 5px 0;
 }
+
+/* ----- footer ---- */ 
+footer {
+    background-color: var(--cor5);
+    color: var(--cor0);
+    margin-top: 20px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    font-weight: 700;
+    transition: background 1s;
+}
+
+footer a:hover {
+    background-color: var(--cor2);
+}
