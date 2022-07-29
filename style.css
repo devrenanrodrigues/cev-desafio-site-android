@@ -134,3 +134,23 @@ article img {
     max-width: 100%;
     margin: 0 auto;
 }
+
+/* ----- vídeo ----- */
+
+.video {
+    position: relative;
+    background-color: var(--cor4);
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+
+.video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
