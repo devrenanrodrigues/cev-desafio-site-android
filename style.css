@@ -154,3 +154,38 @@ article img {
     width: 90%;
     height: 90%;
 }
+
+/* -----aside ----- */
+
+aside {
+    background-color: var(--cor0);
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.466);
+}
+
+aside h3 {
+    font-family: var(--font-text);
+    font-size: 1.3em;
+    font-weight: 700;
+    background-image: none;
+    background-color: var(--cor4);
+    color: white;
+    margin: 0 -20px;
+    padding: 5px 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+aside .aside-list {
+    list-style: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+    margin-left: 10%;
+    font-family: var(--font-bebas);
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+aside .aside-list-item {
+    margin: 5px 0;
+}
