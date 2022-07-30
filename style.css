@@ -208,3 +208,16 @@ footer a {
 footer a:hover {
     background-color: var(--cor2);
 }
+
+abbr {
+    position: relative;
+}
+
+abbr:hover::after {
+    position: absolute;
+    bottom: 10%;
+    display: block;
+    padding: 5px;
+    background: var(--cor1);
+    content: attr(title);
+}
